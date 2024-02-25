@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Apex Find",
+  "version": "1.0.0",
+  "description": "Find the top products from ebay, aliexpress and amazon in one place",
+  "icons": {
+    "32": "icon32.png",
+    "64": "icon64.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
